@@ -216,25 +216,17 @@ function countLettersRoundTwo(str) {
 // Q: Do these functions have the same space complexity?
 // ANSWER:
 
-// First function is constant because no matter how big the string is
-// the numbers will take up the same amount of storage
-
-// Second fuction is linear. 
-
-// Answer is no, first is constant, the second is linear.
-
+// yes
 
 // Q: What is the space complexity of each? 
-// ANSWER - countLetters: constant
-// ANSWER - countLettersRoundTwo: linear
+// ANSWER - countLetters: O(n)
+// ANSWER - countLettersRoundTwo: O(n)
 
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
 // ANSWER: 
 
-// First function is constant because no matter how big the string is
-// the numbers will take up the same amount of storage. Second function
-// is dynamic and returns more space if the string has more letters.
+// the for loops take up dynamic space
 
 
 // 12) Memoization
