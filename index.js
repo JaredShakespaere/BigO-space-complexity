@@ -219,16 +219,22 @@ function countLettersRoundTwo(str) {
 // First function is constant because no matter how big the string is
 // the numbers will take up the same amount of storage
 
-//
+// Second fuction is linear. 
+
+// Answer is no, first is constant, the second is linear.
 
 
 // Q: What is the space complexity of each? 
-// ANSWER - countLetters:
-// ANSWER - countLettersRoundTwo:
+// ANSWER - countLetters: constant
+// ANSWER - countLettersRoundTwo: linear
 
 
 // Q: Explain how you came to your conclusions about the space complexity of each function. 
 // ANSWER: 
+
+// First function is constant because no matter how big the string is
+// the numbers will take up the same amount of storage. Second function
+// is dynamic and returns more space if the string has more letters.
 
 
 // 12) Memoization
@@ -262,6 +268,18 @@ function countLettersRoundTwo(str) {
 */
 
 // CODE HERE 
+
+class Factorial {
+  constructor(){
+    this.cache = {}
+
+  }
+  calcFac(num){
+    if(this.cache[num])
+
+  }
+}
+
 
 
 /* 
